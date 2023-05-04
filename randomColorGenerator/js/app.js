@@ -4,6 +4,8 @@ const getColor = () => {
     console.log(hexNum, randomCode);
     document.body.style.backgroundColor = randomCode;
     document.getElementById('colorCode').innerHTML = randomCode;
+
+    navigator.clipboard.writeText(randomCode);
 }
 
 document.getElementById("btn").addEventListener('click', getColor);
