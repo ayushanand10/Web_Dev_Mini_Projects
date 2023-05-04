@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=IBM+Plex+Serif:wght@100;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+
+body{
+    transition: 0.5s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+button{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
