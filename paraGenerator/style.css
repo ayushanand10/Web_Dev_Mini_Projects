@@ -1,0 +1,54 @@
+/* *{
+    border: 1px solid red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 25, 25);
+}
+
+.container{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+
+#numberOfWords{
+    height: 50px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.773);
+    border-radius: 5px;
+    padding: 1%;
+    font: 1.6rem;
+    outline: none;
+}
+
+button{
+    height: 50px;
+    width: 10%;
+    /* border: 1px solid rgba(128, 128, 128, 0.773); */
+    border-radius: 5px;
+    padding: 1%;
+    font: 1.6rem;
+    background-color: rgb(50, 60, 236);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(74, 132, 234);   
+}
+
+.para{
+    background-color: rgb(173, 198, 198);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+}

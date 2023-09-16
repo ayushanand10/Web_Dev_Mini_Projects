@@ -13,7 +13,7 @@ const getWeather = async (city) => {    // async and await use krna necessity h 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${APIkey}&units=metric`;
     const response = await fetch(url);
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     return showWeather(data);
 }
 
@@ -30,6 +30,10 @@ const showWeather = (data) => {
         <div>
             <h2>${data.main.temp} ℃</h2>
             <h4>${data.weather[0].main}</h4>
+            <h6>Humidity : ${data.main.humidity}</h6>
+            <h6>Temperature Max : ${data.main.temp_max} ℃</h6>
+            <h6>Temperature Min : ${data.main.temp_min} ℃</h4>
+            <h6>Pressure : ${data.main.pressure} atm</h6>
         </div>
     `
 }
